@@ -45,8 +45,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Stay Motivated!</h1>
-      {!hasFetchedQuote && quote}
+      <h1>quoter.</h1>
+      {!hasFetchedQuote && <p>{quote}</p>}
       {hasFetchedQuote && quote.map(quote => (
         <QuoteCard quoteText={quote.quoteText} quoteAuthor={quote.quoteAuthor} key={quote.id}/>
       ))}

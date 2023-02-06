@@ -22,6 +22,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #747bff;
 }
@@ -32,7 +33,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); 
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
 }
 
 h1 {
@@ -51,6 +52,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #fff;
   color: white;
@@ -58,23 +60,25 @@ button:hover {
   outline: 0;
 
 }
+
 button:focus,
 button:focus-visible {
   outline: 0;
 }
 
 
-.quote-card{
+.quote-card {
   background-color: rgb(245, 235, 250);
   min-height: 15rem;
-  width: 30rem;
+  width: 80%;
+  max-width: 400px;
   margin: 40px auto;
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 40px;
   box-shadow: 0px 0px 7px 3px rgba(107, 90, 138, 0.4);
 }
 
-.quote-card:hover{
+.quote-card:hover {
   box-shadow: 0px 0px 3px 3px rgba(107, 90, 138, 0.4);
 }
 
@@ -82,14 +86,13 @@ button:focus-visible {
   /* background-color: red; */
   padding: 5px;
   margin-top: 50px;
-  font-size: 20px;
-  color: rgb(13, 10, 10);
+  font-size: 1.2rem;
+  color: rgb(75, 65, 65);
   font-weight: 300;
   font-family: 'Inter', sans-serif;
 }
 
-.quote-card h5{
+.quote-card h5 {
   font-family: 'Pacifico', sans-serif;
   opacity: 0.7;
 }
-

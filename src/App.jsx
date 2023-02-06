@@ -48,7 +48,7 @@ function App() {
       <h1>quoter.</h1>
       {!hasFetchedQuote && <p>{quote}</p>}
       {hasFetchedQuote && quote.map(quote => (
-        <QuoteCard quoteText={quote.quoteText} quoteAuthor={quote.quoteAuthor} key={quote.id}/>
+        <QuoteCard quoteText={quote.quoteText} quoteAuthor={quote.quoteAuthor} key={quote.id} />
       ))}
       <button onClick={fetchQuote}>Get a quote</button>
     </div>
